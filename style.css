@@ -264,13 +264,13 @@ h2.cvtexts:hover {
     transition-duration: 1s
 }
 
+/*  
 a.cvtexts {
     font-family: Apercu;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 29px;
 }
-
-/*    pointer-events: none;
+    pointer-events: none;
     cursor: url('moose.png'), auto;
     -webkit-appearance: none;
     box-shadow: inset 0px -10px 0px 0px #b2cbde;
