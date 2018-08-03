@@ -63,6 +63,7 @@ ul {
 }
 
 a {
+    font-family: Apercu;
     color: #000000;
     text-decoration: none;
 }
@@ -177,6 +178,30 @@ nav a {
             }
 */
 
+/* INDEX PAGE */
+h2.index {
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 90px;
+    transition-duration: 1s
+}
+
+h2.index:hover {
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 90px;
+    transition-duration: 1s
+}
+
+
 /*               ABOUT PAGE               */
 
 .abouttext {
@@ -212,6 +237,7 @@ h2.abouttext:hover {
 h2.cvtexts {
     color: black;
     text-align: center;
+    -webkit-appearance: none;
     box-shadow: inset 0px -18px 0px 0px #b2cbde;
     content: "";
     display: block;
@@ -224,6 +250,7 @@ h2.cvtexts {
 }
 
 h2.cvtexts:hover {
+    -webkit-appearance: none;
     box-shadow: inset 0px -40px 0px 0px #b2cbde;
     content: "";
     display: block;
@@ -232,5 +259,24 @@ h2.cvtexts:hover {
     top: 128px;
     margin: 0 auto;
     width: 47px; 
+    transition-duration: 1s
+}
+
+a {
+    font-family: Apercu;
+    font-weight: 700;
+    font-size: 20px;
+    pointer-events: none;
+    cursor: url('moose.png'), auto;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -10px 0px 0px #b2cbde;
+    transition-duration: 1s
+}
+
+a:hover {
+    pointer-events: none;
+    cursor: url('moose.png'), auto;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
     transition-duration: 1s
 }
