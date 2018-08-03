@@ -1,0 +1,236 @@
+/*               FONT IMPORTS               */
+
+@font-face {
+    font-family: Apercu;
+    src: url('Apercu-Regular-Pro.otf');
+} 
+
+@font-face {
+    font-family: Apercu Light;
+    src: url('Apercu-Light.otf');
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url('Playfair-Display-Regular.otf');
+}
+
+@font-face {
+    font-family: Playfair Display Bold;
+    src: url('Playfair-Display-Bold.otf');
+}
+
+@font-face {
+    font-family: Playfair Display Black;
+    src: url('Playfair-Display-Black.otf');
+}
+            
+@font-face {
+    font-family: Helvetica Neue;
+    src: url('Helvetica-Neue.ttf');
+}
+
+
+/*               DEFAULTS               */
+
+html {
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor:url('moose.png'), auto;
+}
+
+h1 {
+    font-family: Playfair Display Black, Helvetica;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: Apercu;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Apercu;
+}
+
+p {
+    font-family: Apercu Light, Apercu, Helvetica
+}
+
+ul {
+    font-family: Apercu Light, Helvetica
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/*               BUTTON               */
+            .button {
+            background-color: white;
+            border: 2px solid #b2cbde;
+            color: #b2cbde;
+            padding: 15px 25px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 15px;
+            font-family: Apercu, Helvetica Neue;
+            transition-property: color;
+            transition-duration: 0.5s;
+            transition-property: background-color;
+            transition-duration: 0.5s;
+}
+
+            .button:hover {
+            background-color: #b2cbde;
+            color: #FFFFFF;
+            padding: 15px 25px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 15px;
+            font-family: Apercu, Helvetica Neue;
+}
+
+/*               TOP NAVIGATION BAR               */
+
+header {
+    margin-bottom: 20px;
+}
+
+.topnav {
+    color: black;
+    font-family: Apercu, Helvetica Neue;
+    height: 70px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.topnav a:hover {
+    color: black;
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+}
+
+.logo {
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+nav {
+    display:inline-block;
+    float: right;
+    margin-left; 30px;
+    margin-right: 10px;
+    padding-top: 25px;
+}
+
+nav ul {
+    display:inline-block;
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav a {
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 20px;
+    box-shadow: inset 0px -10px 0px 0px #b2cbde;
+    transition-duration: 0.7s;
+}
+
+
+/*               TOP NAVIGATION BAR LOGO TOP BAR BOTTOM
+            .topnav {
+            overflow: hidden;
+            background-color: #FFFFFF;
+            padding: 14px 16px;
+            font-family: Apercu, Helvetica Neue;
+            text-align: center;
+            box-shadow: 0px 5px 10px #F0F0F0;
+            transition-duration: 1s
+            }
+
+            .topnav a {
+            color: #000000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            margin: auto
+            }
+
+            .topnav a:hover {
+            background-color: #FFFFFF;
+            color: #5a6575;
+            }
+
+            .topnav a.active {
+            background-color: #5a6575;
+            color: black;
+            display: inline-block;
+            text-align: center
+            }
+*/
+
+/*               ABOUT PAGE               */
+
+.abouttext {
+    text-align: center;
+}
+
+h2.abouttext {
+    text-align: center;
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 140px;
+    transition-duration: 1s
+}
+
+h2.abouttext:hover {
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 140px;
+    transition-duration: 1s
+}
+
+
+/*               CV PAGE               */
+
+h2.cvtexts {
+    color: black;
+    text-align: center;
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    display: block;
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 47px;
+    transition-duration: 1s
+}
+
+h2.cvtexts:hover {
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    display: block;
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 47px; 
+    transition-duration: 1s
+}
