@@ -274,11 +274,3 @@ a.cvtexts {
     box-shadow: inset 0px -10px 0px 0px #b2cbde;
     transition-duration: 1s
 }
-
-a.cvtexts:hover {
-    pointer-events: none;
-    cursor: url('moose.png'), auto;
-    -webkit-appearance: none;
-    box-shadow: inset 0px -40px 0px 0px #b2cbde;
-    transition-duration: 1s
-}
