@@ -7,12 +7,14 @@
 
 @font-face {
     font-family: Apercu Light;
-    src: url('Apercu-Light.otf');
+    src: url('Apercu-Light.woff2') format('woff2'),
+         url('Apercu-Light.woff') format('woff'),
+         url('Apercu-Light.ttf') format('truetype');
 }
 
 @font-face {
     font-family: Playfair Display;
-    src: url('Playfair-Display-Regular.otf');
+    src: url('fonts/Playfair-Display-Regular.otf');
 }
 
 @font-face {
@@ -56,7 +58,8 @@ h3 {
 }
 
 p {
-    font-family: Apercu Light, Apercu, Helvetica
+    font-family: Apercu Light, Apercu, Helvetica;
+    font-size: 16px;
 }
 
 ul {
@@ -69,6 +72,13 @@ a {
     text-decoration: none;
 }
 
+::selection {
+  background: #b2cbde; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #b2cbde; /* Gecko Browsers */
+}
 
 /*               BUTTON               */
             .button {
@@ -187,6 +197,7 @@ nav a:hover {
 
 /* INDEX PAGE */
 h2.index {
+    -webkit-appearance: none;
     box-shadow: inset 0px -18px 0px 0px #b2cbde;
     content: "";
     left: 1px;
@@ -198,6 +209,7 @@ h2.index {
 }
 
 h2.index:hover {
+    -webkit-appearance: none;
     box-shadow: inset 0px -40px 0px 0px #b2cbde;
     content: "";
     left: 1px;
