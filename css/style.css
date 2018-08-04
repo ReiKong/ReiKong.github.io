@@ -290,6 +290,37 @@ h3.h3-photography-works {
     font-size: 2.3vw;
 }
 
+.h31-gnd-works {
+    box-shadow: inset 0px 6vw 0px 0px #b2cbde;
+    content: "";
+    margin: 0 auto;
+    width: 14.6vw;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3.h31-gnd-works {
+    font-size: 2.3vw;
+}
+
+.h32-gnd-works {
+    box-shadow: inset 0px 6vw 0px 0px #b2cbde;
+    content: "";
+    margin: 0 auto;
+    width: 8vw;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3.h32-gnd-works {
+    font-size: 2.3vw;
+}
+
+
 
 /*               WORKS > PHOTOGRAPHY PAGE               */
 
