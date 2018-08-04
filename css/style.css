@@ -76,6 +76,10 @@ a {
     text-decoration: none;
 }
 
+box-shadow {
+    padding-bottom: 10px;
+}
+
 ::selection {
   background: #b2cbde; /* WebKit/Blink Browsers */
 }
@@ -199,7 +203,12 @@ nav a:hover {
             }
 */
 
-/* INDEX PAGE */
+.h2-pagetitle {
+    padding-bottom: 20px;
+}
+
+
+/*               INDEX PAGE               */
 h2.index {
     -webkit-appearance: none;
     box-shadow: inset 0px -18px 0px 0px #b2cbde;
@@ -224,6 +233,90 @@ h2.index:hover {
     transition-duration: 1s
 }
 
+/*               WORKS PAGE               */
+
+h2.h2-works {
+    text-align: center;
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 90px;
+    transition-duration: 1s
+}
+
+h2.h2-works:hover {
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 90px;
+    transition-duration: 1s
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+    width: 33%;
+}
+
+.photo-container-works {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.h3-photography-works {
+    box-shadow: inset 0px 5vw 0px 0px #b2cbde;
+    content: "";
+    margin: 0 auto;
+    width: 14vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+h3.h3-photography-works {
+    font-size: 2.3vw;
+}
+
+
+/*               WORKS > PHOTOGRAPHY PAGE               */
+
+h2.h2-photography {
+    -webkit-appearance: none;
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 180px;
+    transition-duration: 1s
+}
+
+h2.h2-photography:hover {
+    -webkit-appearance: none;
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 180px;
+    transition-duration: 1s
+}
+
 
 /*               ABOUT PAGE               */
 
@@ -233,7 +326,7 @@ h2.index:hover {
     margin-right: 20%;
 }
 
-h2.abouttext {
+h2.h2-about {
     text-align: center;
     box-shadow: inset 0px -18px 0px 0px #b2cbde;
     content: "";
@@ -245,7 +338,7 @@ h2.abouttext {
     transition-duration: 1s
 }
 
-h2.abouttext:hover {
+h2.h2-about:hover {
     box-shadow: inset 0px -40px 0px 0px #b2cbde;
     content: "";
     left: 1px;
@@ -287,22 +380,22 @@ h2.cvtexts:hover {
     transition-duration: 1s
 }
 
-.hover-title {
+.a-h3-cv {
     text-decoration:none;
     position:relative;
 }
 
-.hover-title span {
+.a-h3-cv span {
     display: none;
 }
 
-.hover-title:hover span {
+.a-h3-cv:hover span {
     display:block;
     position:fixed;
     overflow:hidden;
 }
 
-a.hover-title {
+a.a-h3-cv {
     font-family: Apercu;
     font-weight: 700;
     font-size: 20px;
