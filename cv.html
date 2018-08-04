@@ -12,7 +12,7 @@
         <header>
             <div class="topnav">
                 <div id="topnav">
-                <h1 class="logo">REI</h1>
+                <a class="logo" href="index.html">REI</a>
                 <nav>
                     <a href="index.html">HOME</a>
                     <a href="work.html">WORK</a>
@@ -22,11 +22,28 @@
                 </div>
             </div>
         </header>
+        
+        <script>
+            var hovertitleSpan = document.getElementById('hover-title-span');
+
+            window.onmousemove = function (e) {
+                var x = e.clientX,
+                y = e.clientY;
+            hovertitleSpan.style.top = (y + 20) + 'px';
+            hovertitleSpan.style.left = (x + 20) + 'px';
+};
+        </script>
+        
         <div class="cvtext">
                 <span class="line">
                     <h2 class="cvtexts"><span class="h3">CV</span></h2>
                 </span>
-                        <h3>EDUCATION</h3>
+                        <h3 class="hover-title">
+                            EDUCATION
+                            <span id="hover-title-span">
+                                <p>reeee</p>
+                            </span>
+                        </h3>
                             <ul>
                                 <li><b>Walter Payton College Prep. </b>2018 - Present</li>
                                 <li><b>The Ogden International School of Chicago (International Gifted Baccalaureate).</b> 2014 - 2018.</li>
@@ -64,10 +81,22 @@
                     <br>
                     <h3>EXTRACURRICULAR ACTIVITIES</h3>
                         <ul>
-                            <li></li>
+                            <li><b>Debate Club.</b> 2015 - 2018 (The Ogden International School of Chicago International Gifted Baccalaureate).</li>
+                            <li><b>Math Team.</b> 2016 - 2018 (The Ogden International School of Chicago International Gifted Baccalaureate).</li>
+                            <li><b>Coding Club.</b> 2015 (The Ogden International School of Chicago International Gifted Baccalaureate).</li>
+                            <li><b>Chess Club.</b> 2015 - 2017 (The Ogden International School of Chicago International Gifted Baccalaureate).</li>
+                            <li><b>English Drama Club.</b> 2012 - 2014 (CHIJ OLQP).</li>
+                            <li><b>Environmental Science Club.</b> 2012 - 2014 (CHIJ OLQP).</li>
+                            <li><b>Chess Club.</b> 2009 - 2012 (South Loop Elementary School Regional Gifted Center).</li>
                         </ul>
                     <br>
                     <h3>VOLUNTEER WORKS</h3>
+                        <ul>
+                            <li><b>Presbytery of Chicago Youth Ministry.</b> 2016.</li>
+                            I helped clean up the community gardens at 65th Street and Woodlawn in Chicago.
+                            <li><b>Safe Haven Shelter.</b> 2015.</li>
+                            I worked in the pantry, sorted the canned food, wrote letters to veterans, and set up the intake bags.
+                        </ul>
                     <br>
                     <h3>COURSES</h3>
                     <br>

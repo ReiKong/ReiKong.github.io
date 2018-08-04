@@ -52,6 +52,7 @@ h2 {
 
 h3 {
     font-family: Apercu;
+    font-size: 20px;
 }
 
 p {
@@ -109,15 +110,16 @@ header {
     width: 100%;
 }
 
-.topnav a:hover {
-    color: black;
-    box-shadow: inset 0px -40px 0px 0px #b2cbde;
-}
-
 .logo {
     float: left;
     margin-top: 0px;
     margin-left: 0px;
+}
+
+a.logo {
+    font-family: Playfair Display Bold;
+    font-size: 66px;
+    box-shadow: none;
 }
 
 nav {
@@ -142,6 +144,11 @@ nav a {
     margin-left: 20px;
     box-shadow: inset 0px -10px 0px 0px #b2cbde;
     transition-duration: 0.7s;
+}
+
+nav a:hover {
+    color: black;
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
 }
 
 
@@ -262,6 +269,21 @@ h2.cvtexts:hover {
     margin: 0 auto;
     width: 47px; 
     transition-duration: 1s
+}
+
+.hover-title {
+    text-decoration:none;
+    position:relative;
+}
+
+.hover-title span {
+    display: none;
+}
+
+.hover-title:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
 }
 
 /*  
