@@ -88,6 +88,24 @@ box-shadow {
   background: #b2cbde; /* Gecko Browsers */
 }
 
+
+/*               LIL REI LOGO LOL               */
+
+#rei a.rei {
+    display: block;
+    width: 20px;
+    float: right;
+    
+}
+
+#rei img {
+    height: 50px;
+    max-width: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0.2px;
+}
+
 /*               BUTTON               */
             .button {
             background-color: white;
