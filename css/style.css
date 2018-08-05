@@ -3,6 +3,7 @@
 @font-face {
     font-family: Apercu;
     src: url('Apercu-Regular-Pro.otf');
+    -webkit-font-smoothing; antialiased;
 } 
 
 @font-face {
@@ -10,26 +11,28 @@
     src: url('Apercu-Light.woff2') format('woff2'),
          url('Apercu-Light.woff') format('woff'),
          url('Apercu-Light.ttf') format('truetype');
+    -webkit-font-smoothing; antialiased;
 }
 
 @font-face {
     font-family: Playfair Display;
-    src: url('fonts/Playfair-Display-Regular.otf');
+    src: url('Playfair-Display-Regular.woff2') format('woff2'),
+         url('Playfair-Display-Regular.woff') format('woff'),
+         url('Playfair-Display-Regular.ttf') format('truetype'),
+         url('Playfair-Display-Regular.otf');
+    -webkit-font-smoothing; antialiased;
 }
 
 @font-face {
     font-family: Playfair Display Bold;
     src: url('Playfair-Display-Bold.otf');
+    -webkit-font-smoothing; antialiased;
 }
 
 @font-face {
     font-family: Playfair Display Black;
     src: url('Playfair-Display-Black.otf');
-}
-            
-@font-face {
-    font-family: Helvetica Neue;
-    src: url('Helvetica-Neue.ttf');
+    -webkit-font-smoothing; antialiased;
 }
 
 
@@ -99,7 +102,7 @@ box-shadow {
 }
 
 #rei img {
-    height: 50px;
+    height: 40px;
     max-width: 100%;
     position: fixed;
     bottom: 0px;
@@ -107,6 +110,7 @@ box-shadow {
 }
 
 /*               BUTTON               */
+
             .button {
             background-color: white;
             border: 2px solid #b2cbde;
@@ -131,6 +135,7 @@ box-shadow {
             font-size: 15px;
             font-family: Apercu, Helvetica Neue;
 }
+
 
 /*               TOP NAVIGATION BAR               */
 
@@ -296,7 +301,19 @@ h2.h2-works:hover {
     box-shadow: inset 0px 5vw 0px 0px #b2cbde;
     content: "";
     margin: 0 auto;
-    width: 14vw;
+    width: 15vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.h3-photography-works:hover {
+    box-shadow: inset 0px 5vw 0px 0px #b2cbde;
+    content: "";
+    margin: 0 auto;
+    width: 15vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -305,7 +322,15 @@ h2.h2-works:hover {
 }
 
 h3.h3-photography-works {
-    font-size: 2.3vw;
+    font-size: 2.5vw;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+a.a-photography-works {
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .h31-gnd-works {
@@ -320,7 +345,16 @@ h3.h3-photography-works {
 }
 
 h3.h31-gnd-works {
+    color: white;
     font-size: 2.3vw;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+a.h31-gnd-works {
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .h32-gnd-works {
@@ -335,7 +369,16 @@ h3.h31-gnd-works {
 }
 
 h3.h32-gnd-works {
+    color: white;
     font-size: 2.3vw;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+a.h32-gnd-works {
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 
@@ -371,6 +414,8 @@ h2.h2-photography:hover {
 
 h2.h21-gnd {
     text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
     -webkit-appearance: none;
     box-shadow: inset 0px -18px 0px 0px #b2cbde;
     content: "";
@@ -383,6 +428,8 @@ h2.h21-gnd {
 }
 
 h2.h21-gnd:hover {
+    overflow: hidden;
+    white-space: nowrap;
     text-align: center;
     -webkit-appearance: none;
     box-shadow: inset 0px -40px 0px 0px #b2cbde;
