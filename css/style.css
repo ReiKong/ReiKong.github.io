@@ -3,6 +3,7 @@
 @font-face {
     font-family: Apercu;
     src: url('Apercu-Regular-Pro.otf');
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 } 
 
@@ -11,6 +12,7 @@
     src: url('Apercu-Light.woff2') format('woff2'),
          url('Apercu-Light.woff') format('woff'),
          url('Apercu-Light.ttf') format('truetype');
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
 
@@ -20,18 +22,21 @@
          url('Playfair-Display-Regular.woff') format('woff'),
          url('Playfair-Display-Regular.ttf') format('truetype'),
          url('Playfair-Display-Regular.otf');
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
 
 @font-face {
     font-family: Playfair Display Bold;
     src: url('Playfair-Display-Bold.otf');
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
 
 @font-face {
     font-family: Playfair Display Black;
     src: url('Playfair-Display-Black.otf');
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
 
@@ -47,36 +52,50 @@ html {
 h1 {
     font-family: Playfair Display Black, Helvetica;
     font-size: 60px;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
 }
 
 h2 {
     font-family: Apercu;
     font-size: 30px;
     text-align: center;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
 }
 
 h3 {
     font-family: Apercu;
     font-size: 20px;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
 }
 
 p {
     font-family: Apercu Light, Apercu, Helvetica;
     font-size: 15px;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
 }
 
 ul {
     font-family: Apercu Light, Helvetica;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
 }
 
 li {
     font-size: 15px;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
 }
 
 a {
     font-family: Apercu;
     color: #000000;
     text-decoration: none;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
 }
 
 box-shadow {
@@ -480,6 +499,10 @@ h2.h22-gnd:hover {
 
 h2.h2-about {
     text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-appearance: none;
     box-shadow: inset 0px -18px 0px 0px #b2cbde;
     content: "";
     left: 1px;
@@ -491,6 +514,10 @@ h2.h2-about {
 }
 
 h2.h2-about:hover {
+    overflow: hidden;
+    white-space: nowrap;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-appearance: none;
     box-shadow: inset 0px -40px 0px 0px #b2cbde;
     content: "";
     left: 1px;
