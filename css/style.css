@@ -92,6 +92,7 @@ li {
 
 a {
     font-family: Apercu;
+    font-size: 15px;
     color: #000000;
     text-decoration: none;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
@@ -259,7 +260,7 @@ h2.index {
     right: 1px;
     top: 128px;
     margin: 0 auto;
-    width: 90px;
+    width: 91px;
     transition-duration: 1s
 }
 
@@ -271,7 +272,7 @@ h2.index:hover {
     right: 1px;
     top: 128px;
     margin: 0 auto;
-    width: 90px;
+    width: 91px;
     transition-duration: 1s
 }
 
@@ -285,7 +286,7 @@ h2.h2-works {
     right: 1px;
     top: 128px;
     margin: 0 auto;
-    width: 90px;
+    width: 98px;
     transition-duration: 1s
 }
 
@@ -296,7 +297,7 @@ h2.h2-works:hover {
     right: 1px;
     top: 128px;
     margin: 0 auto;
-    width: 90px;
+    width: 98px;
     transition-duration: 1s
 }
 
@@ -509,7 +510,7 @@ h2.h2-about {
     right: 1px;
     top: 128px;
     margin: 0 auto;
-    width: 140px;
+    width: 145px;
     transition-duration: 1s
 }
 
@@ -524,7 +525,7 @@ h2.h2-about:hover {
     right: 1px;
     top: 128px;
     margin: 0 auto;
-    width: 140px;
+    width: 145px;
     transition-duration: 1s
 }
 
@@ -542,7 +543,7 @@ h2.cvtexts {
     right: 1px;
     top: 128px;
     margin: 0 auto;
-    width: 47px;
+    width: 50px;
     transition-duration: 1s
 }
 
@@ -555,7 +556,7 @@ h2.cvtexts:hover {
     right: 1px;
     top: 128px;
     margin: 0 auto;
-    width: 47px; 
+    width: 50px; 
     transition-duration: 1s
 }
 
