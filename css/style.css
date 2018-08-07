@@ -512,8 +512,9 @@ h2.h2-photography:hover {
 
 /*               WORKS > GRAPHICS AND DESIGN PAGE               */
 
-h2.h21-gnd {
+h2.h2-gnd {
     text-align: center;
+    overflow: hidden;
     white-space: nowrap;
     -webkit-appearance: none;
     box-shadow: inset 0px -18px 0px 0px #b2cbde;
@@ -522,11 +523,11 @@ h2.h21-gnd {
     right: 1px;
     top: 128px;
     margin: 0 auto;
-    width: 390px;
+    width: 290px;
     transition-duration: 1s
 }
 
-h2.h21-gnd:hover {
+h2.h2-gnd:hover {
     white-space: nowrap;
     text-align: center;
     -webkit-appearance: none;
@@ -545,7 +546,6 @@ h2.h21-gnd:hover {
 
 h2.h2-school-projects {
     text-align: center;
-    overflow: hidden;
     white-space: nowrap;
     -webkit-appearance: none;
     box-shadow: inset 0px -18px 0px 0px #b2cbde;
