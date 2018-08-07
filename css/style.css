@@ -131,29 +131,29 @@ box-shadow {
 
 /*               BUTTON               */
 
-            .button {
-            background-color: white;
-            border: 2px solid #b2cbde;
-            color: #b2cbde;
-            padding: 15px 25px;
-            text-align: center;
-            cursor: pointer;
-            font-size: 15px;
-            font-family: Apercu, Helvetica Neue;
-            transition-property: color;
-            transition-duration: 0.5s;
-            transition-property: background-color;
-            transition-duration: 0.5s;
+button {
+    background-color: white;
+    border: 2px solid #b2cbde;
+    color: #b2cbde;
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Apercu, Helvetica Neue;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+    transition-duration: 0.5s;
 }
 
-            .button:hover {
-            background-color: #b2cbde;
-            color: #FFFFFF;
-            padding: 15px 25px;
-            text-align: center;
-            cursor: pointer;
-            font-size: 15px;
-            font-family: Apercu, Helvetica Neue;
+button:hover {
+    background-color: #b2cbde;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Apercu, Helvetica Neue;
 }
 
 
@@ -545,7 +545,6 @@ h2.h2-exeter-new-hampshire:hover {
 
 h2.h2-gnd {
     text-align: center;
-    overflow: hidden;
     white-space: nowrap;
     -webkit-appearance: none;
     box-shadow: inset 0px -18px 0px 0px #b2cbde;
