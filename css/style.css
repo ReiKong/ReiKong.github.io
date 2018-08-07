@@ -544,9 +544,10 @@ h2.h2-exeter-new-hampshire:hover {
 /*               WORKS > GRAPHICS AND DESIGN PAGE               */
 
 h2.h2-gnd {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
     text-align: center;
     white-space: nowrap;
-    -webkit-appearance: none;
     box-shadow: inset 0px -18px 0px 0px #b2cbde;
     content: "";
     left: 1px;
@@ -558,9 +559,10 @@ h2.h2-gnd {
 }
 
 h2.h2-gnd:hover {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
     white-space: nowrap;
     text-align: center;
-    -webkit-appearance: none;
     box-shadow: inset 0px -40px 0px 0px #b2cbde;
     content: "";
     left: 1px;
