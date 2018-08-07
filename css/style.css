@@ -251,6 +251,35 @@ nav a:hover {
 }
 
 
+/*               H3 WITH BLUE UNDERLINE               */
+
+.a-h3-title {
+    text-decoration:none;
+    position:relative;
+}
+
+.a-h3-title span {
+    display: none;
+}
+
+.a-h3-title:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+}
+
+a.a-h3-title {
+    font-family: Apercu;
+    font-weight: 700;
+    font-size: 25px;
+    pointer-events: none;
+    cursor: url('moose.png'), auto;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -10px 0px 0px #b2cbde;
+    transition-duration: 1s*/
+}
+
+
 /*               INDEX PAGE               */
 h2.index {
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
@@ -309,8 +338,18 @@ h2.h2-works:hover {
     transition-duration: 1s
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .row > .column {
   padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .column {
@@ -444,6 +483,32 @@ h2.h2-photography:hover {
     transition-duration: 1s
 }
 
+.row > .column {
+    padding: 0 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    padding-top: 20px;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+    width: 33%;
+}
+
+.photo-container-photography {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 
 /*               WORKS > GRAPHICS AND DESIGN PAGE               */
 
@@ -458,7 +523,7 @@ h2.h21-gnd {
     right: 1px;
     top: 128px;
     margin: 0 auto;
-    width: 190px;
+    width: 290px;
     transition-duration: 1s
 }
 
@@ -473,7 +538,7 @@ h2.h21-gnd:hover {
     right: 1px;
     top: 128px;
     margin: 0 auto;
-    width: 190px;
+    width: 290px;
     transition-duration: 1s
 }
 
@@ -638,30 +703,4 @@ h2.cvtexts:hover {
     margin: 0 auto;
     width: 50px; 
     transition-duration: 1s
-}
-
-.a-h3-cv {
-    text-decoration:none;
-    position:relative;
-}
-
-.a-h3-cv span {
-    display: none;
-}
-
-.a-h3-cv:hover span {
-    display:block;
-    position:fixed;
-    overflow:hidden;
-}
-
-a.a-h3-cv {
-    font-family: Apercu;
-    font-weight: 700;
-    font-size: 20px;
-    pointer-events: none;
-    cursor: url('moose.png'), auto;
-    -webkit-appearance: none;
-    box-shadow: inset 0px -10px 0px 0px #b2cbde;
-    transition-duration: 1s*/
 }
