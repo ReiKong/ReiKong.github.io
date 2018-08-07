@@ -505,7 +505,7 @@ h2.h22-gnd:hover {
 }
 
 
-/*WORKS > SCHOOL PROJECTS*/
+/*               WORKS > SCHOOL PROJECTS               */
 
 h2.h2-school-projects {
     text-align: center;
@@ -519,6 +519,53 @@ h2.h2-school-projects {
     top: 128px;
     margin: 0 auto;
     width: 225px;
+    transition-duration: 1s
+}
+
+h2.h2-school-projects:hover {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 225px;
+    transition-duration: 1s
+}
+
+/*               WORKS > LITERATURE               */
+
+h2.h2-literature {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 145px;
+    transition-duration: 1s
+}
+
+h2.h2-literature:hover {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 145px;
     transition-duration: 1s
 }
 
