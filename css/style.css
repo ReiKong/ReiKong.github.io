@@ -384,6 +384,18 @@ a.h3-photography-works {
     transition-duration: 1s
 }
 
+a.h3-photography-works:hover {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
+    font-size: 1.4vw;
+    font-weight: 550;
+    margin: 0;
+    cursor: url('moose.png'), auto;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -2vw 0px 0px #b2cbde;
+    transition-duration: 1s
+}
+
 a.h3-gnd-works {
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
@@ -395,6 +407,20 @@ a.h3-gnd-works {
     cursor: url('moose.png'), auto;
     -webkit-appearance: none;
     box-shadow: inset 0px -0.8vw 0px 0px #b2cbde;
+    transition-duration: 1s
+}
+
+a.h3-gnd-works:hover {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
+    verflow: hidden;
+    white-space: nowrap;
+    font-size: 1.4vw;
+    font-weight: 550;
+    margin: 0;
+    cursor: url('moose.png'), auto;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -2vw 0px 0px #b2cbde;
     transition-duration: 1s
 }
         
