@@ -426,69 +426,18 @@ h2.h2-photography:hover {
 }
 
 /* EXETER, NEW HAMPSHIRE SECTION */
-a.a-enh-photography {
+a.h3-enh-photography {
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
-    color: white;
+    verflow: hidden;
     white-space: nowrap;
-}
-
-.photo-container-enh {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.h31-enh-photography {
-    box-shadow: inset 0px 6vw 0px 0px #b2cbde;
-    content: "";
-    margin: 0 auto;
-    width: 13vw;
-    position: absolute;
-    top: 44%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-h3.h31-enh-photography {
-    -moz-osx-font-smoothing: grayscale;   /* Firefox */
-    -webkit-font-smoothing; antialiased;
-    color: white;
-    font-size: 2.3vw;
-    white-space: nowrap;
-}
-
-a.h31-enh-photography {
-    -moz-osx-font-smoothing: grayscale;   /* Firefox */
-    -webkit-font-smoothing; antialiased;
-    color: white;
-    white-space: nowrap;
-}
-
-.h32-enh-photography {
-    box-shadow: inset 0px 6vw 0px 0px #b2cbde;
-    content: "";
-    margin: 0 auto;
-    width: 12vw;
-    position: absolute;
-    top: 58.7%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-h3.h32-enh-photography {
-    -moz-osx-font-smoothing: grayscale;   /* Firefox */
-    -webkit-font-smoothing; antialiased;
-    color: white;
-    font-size: 2.3vw;
-    white-space: nowrap;
-}
-
-a.h32-enh-photography {
-    -moz-osx-font-smoothing: grayscale;   /* Firefox */
-    -webkit-font-smoothing; antialiased;
-    color: white;
-    white-space: nowrap;
+    font-size: 1.4vw;
+    font-weight: 550;
+    margin: 0;
+    cursor: url('moose.png'), auto;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -0.8vw 0px 0px #b2cbde;
+    transition-duration: 1s
 }
 
 
