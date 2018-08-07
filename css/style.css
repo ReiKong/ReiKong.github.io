@@ -253,6 +253,8 @@ nav a:hover {
 
 /*               INDEX PAGE               */
 h2.index {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
     -webkit-appearance: none;
     box-shadow: inset 0px -18px 0px 0px #b2cbde;
     content: "";
@@ -265,6 +267,8 @@ h2.index {
 }
 
 h2.index:hover {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
     -webkit-appearance: none;
     box-shadow: inset 0px -40px 0px 0px #b2cbde;
     content: "";
@@ -279,6 +283,8 @@ h2.index:hover {
 /*               WORKS PAGE               */
 
 h2.h2-works {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
     text-align: center;
     box-shadow: inset 0px -18px 0px 0px #b2cbde;
     content: "";
@@ -291,6 +297,8 @@ h2.h2-works {
 }
 
 h2.h2-works:hover {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
     box-shadow: inset 0px -40px 0px 0px #b2cbde;
     content: "";
     left: 1px;
@@ -318,6 +326,7 @@ h2.h2-works:hover {
 }
 
 .h3-photography-works {
+    overflow: visible;
     box-shadow: inset 0px 5vw 0px 0px #b2cbde;
     content: "";
     margin: 0 auto;
@@ -342,14 +351,16 @@ h2.h2-works:hover {
 }
 
 h3.h3-photography-works {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
     font-size: 2.5vw;
-    overflow: hidden;
     white-space: nowrap;
 }
 
 a.a-photography-works {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
     color: white;
-    overflow: hidden;
     white-space: nowrap;
 }
 
@@ -365,15 +376,17 @@ a.a-photography-works {
 }
 
 h3.h31-gnd-works {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
     color: white;
     font-size: 2.3vw;
-    overflow: hidden;
     white-space: nowrap;
 }
 
 a.h31-gnd-works {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
     color: white;
-    overflow: hidden;
     white-space: nowrap;
 }
 
@@ -389,15 +402,17 @@ a.h31-gnd-works {
 }
 
 h3.h32-gnd-works {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
     color: white;
     font-size: 2.3vw;
-    overflow: hidden;
     white-space: nowrap;
 }
 
 a.h32-gnd-works {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
     color: white;
-    overflow: hidden;
     white-space: nowrap;
 }
 
@@ -479,13 +494,31 @@ h2.h22-gnd {
 h2.h22-gnd:hover {
     text-align: center;
     -webkit-appearance: none;
-    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    box-shadow: inset 0px -37px 0px 0px #b2cbde;
     content: "";
     left: 1px;
     right: 1px;
     top: 90px;
     margin: 0 auto;
     width: 100px;
+    transition-duration: 1s
+}
+
+
+/*WORKS > SCHOOL PROJECTS*/
+
+h2.h2-school-projects {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 225px;
     transition-duration: 1s
 }
 
