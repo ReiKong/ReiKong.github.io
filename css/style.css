@@ -274,7 +274,6 @@ a.a-h3-title {
     cursor: url('moose.png'), auto;
     -webkit-appearance: none;
     box-shadow: inset 0px -10px 0px 0px #b2cbde;
-    transition-duration: 1s
 }
 
 
@@ -345,6 +344,7 @@ h2.index:hover {
 
 /*               WORKS PAGE               */
 
+/* WORKS TITLE */
 h2.h2-works {
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
@@ -372,102 +372,32 @@ h2.h2-works:hover {
     transition-duration: 1s
 }
 
-.photo-container-works {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.h3-photography-works {
-    overflow: visible;
-    box-shadow: inset 0px 5vw 0px 0px #b2cbde;
-    content: "";
-    margin: 0 auto;
-    width: 15vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.h3-photography-works:hover {
-    box-shadow: inset 0px 5vw 0px 0px #b2cbde;
-    content: "";
-    margin: 0 auto;
-    width: 15vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-}
-
-h3.h3-photography-works {
+a.h3-photography-works {
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
-    font-size: 2.5vw;
-    white-space: nowrap;
+    font-size: 1.4vw;
+    font-weight: 550;
+    margin: 0;
+    cursor: url('moose.png'), auto;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -0.8vw 0px 0px #b2cbde;
+    transition-duration: 1s
 }
 
-a.a-photography-works {
+a.h3-gnd-works {
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
-    color: white;
+    verflow: hidden;
     white-space: nowrap;
+    font-size: 1.4vw;
+    font-weight: 550;
+    margin: 0;
+    cursor: url('moose.png'), auto;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -0.8vw 0px 0px #b2cbde;
+    transition-duration: 1s
 }
-
-.h31-gnd-works {
-    box-shadow: inset 0px 6vw 0px 0px #b2cbde;
-    content: "";
-    margin: 0 auto;
-    width: 14.6vw;
-    position: absolute;
-    top: 44%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-h3.h31-gnd-works {
-    -moz-osx-font-smoothing: grayscale;   /* Firefox */
-    -webkit-font-smoothing; antialiased;
-    color: white;
-    font-size: 2.3vw;
-    white-space: nowrap;
-}
-
-a.h31-gnd-works {
-    -moz-osx-font-smoothing: grayscale;   /* Firefox */
-    -webkit-font-smoothing; antialiased;
-    color: white;
-    white-space: nowrap;
-}
-
-.h32-gnd-works {
-    box-shadow: inset 0px 6vw 0px 0px #b2cbde;
-    content: "";
-    margin: 0 auto;
-    width: 8vw;
-    position: absolute;
-    top: 58.7%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-h3.h32-gnd-works {
-    -moz-osx-font-smoothing: grayscale;   /* Firefox */
-    -webkit-font-smoothing; antialiased;
-    color: white;
-    font-size: 2.3vw;
-    white-space: nowrap;
-}
-
-a.h32-gnd-works {
-    -moz-osx-font-smoothing: grayscale;   /* Firefox */
-    -webkit-font-smoothing; antialiased;
-    color: white;
-    white-space: nowrap;
-}
-
+        
 
 /*               WORKS > PHOTOGRAPHY PAGE               */
 
