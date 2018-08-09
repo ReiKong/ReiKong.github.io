@@ -114,7 +114,7 @@ a {
 
 b {
     font-family: Apercu Light;
-    font-weight: normal;
+    font-weight: 600;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
