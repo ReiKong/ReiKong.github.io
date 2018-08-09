@@ -593,6 +593,36 @@ h2.h2-gnd:hover {
     transition-duration: 1s
 }
 
+h2.h2-acos {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
+    text-align: center;
+    white-space: nowrap;
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 265px;
+    transition-duration: 1s
+}
+
+h2.h2-acos:hover {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
+    text-align: center;
+    white-space: nowrap;
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 265px;
+    transition-duration: 1s
+}
+
 
 /*               WORKS > SCHOOL PROJECTS               */
 
