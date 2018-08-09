@@ -97,7 +97,7 @@ h3 {
 }
 
 p {
-    font-family: Apercu, Apercu, Helvetica;
+    font-family: Apercu, Helvetica;
     font-size: 15px;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
@@ -127,6 +127,17 @@ a {
 b {
     font-family: Apercu;
     font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
+}
+
+i {
+    font-family: Apercu;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 15px;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
@@ -135,6 +146,9 @@ b i {
     font-family: Apercu;
     font-weight: bold;
     font-style: italic;
+    font-size: 15px;
+    moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
 }
 
 box-shadow {
