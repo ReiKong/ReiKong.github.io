@@ -4,15 +4,6 @@
 @font-face {
     font-family: Apercu;
     src: url('Apercu-Regular-Pro.otf');
-    font-weight: normal;
-    font-style: normal;
-    -moz-osx-font-smoothing: grayscale;   /* Firefox */
-    -webkit-font-smoothing; antialiased;
-}
-
-@font-face {
-    font-family: Apercu;
-    src: url('Apercu-Bold.otf');
     font-weight: bold;
     font-style: normal;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
@@ -21,7 +12,16 @@
 
 @font-face {
     font-family: Apercu;
-    font-weight: lighter;
+    src: url('Apercu-Bold.otf');
+    font-weight: bolder;
+    font-style: normal;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
+}
+
+@font-face {
+    font-family: Apercu;
+    font-weight: normal;
     font-style: normal;
     src: url('Apercu-Light.woff2') format('woff2'),
          url('Apercu-Light.woff') format('woff'),
@@ -83,6 +83,7 @@ h1 {
 h2 {
     font-family: Apercu;
     font-size: 30px;
+    font-weight: bolder;
     text-align: center;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
@@ -228,6 +229,8 @@ nav ul {
 }
 
 nav a {
+    font-family: Apercu;
+    font-weight: bold;
     display: inline;
     text-align: center;
     font-size: 18px;
