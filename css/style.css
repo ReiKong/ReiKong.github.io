@@ -64,7 +64,8 @@ h1 {
 }
 
 h2 {
-    font-family: Apercu Bold;
+    font-family: Apercu;
+    font-weight: 700;
     font-size: 30px;
     text-align: center;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
@@ -72,7 +73,8 @@ h2 {
 }
 
 h3 {
-    font-family: Apercu Bold;
+    font-family: Apercu;
+    font-weight: 700;
     font-size: 20px;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
@@ -107,7 +109,8 @@ a {
 }
 
 b {
-    font-family: Apercu;
+    font-family: Apercu Light;
+    font-weight: 700;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
