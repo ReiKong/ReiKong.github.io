@@ -131,6 +131,12 @@ b {
     -webkit-font-smoothing; antialiased;
 }
 
+b i {
+    font-family: Apercu;
+    font-weight: bold;
+    font-style: italic;
+}
+
 box-shadow {
     padding-bottom: 10px;
 }
