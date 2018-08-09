@@ -1,26 +1,43 @@
 /*               FONT IMPORTS               */
 
+/* APERCU */
 @font-face {
     font-family: Apercu;
     src: url('Apercu-Regular-Pro.otf');
+    font-weight: normal;
+    font-style: normal;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
 
 @font-face {
-    font-family: Apercu Bold;
+    font-family: Apercu;
     src: url('Apercu-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
 
 @font-face {
-    font-family: Apercu Light;
+    font-family: Apercu;
+    font-weight: lighter;
+    font-style: normal;
     src: url('Apercu-Light.woff2') format('woff2'),
          url('Apercu-Light.woff') format('woff'),
          url('Apercu-Light.ttf') format('truetype');
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
+}
+
+@font-face {
+    font-family: Apercu;
+    font-weight: bold;
+    font-style: italic;
+    src: url('Apercu-Bold-Italic.otf');
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
+    
 }
 
 @font-face {
@@ -56,10 +73,6 @@ html {
     cursor:url('moose.png'), auto;
 }
 
-h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
-    font-weight: normal;
-}
-
 h1 {
     font-family: Playfair Display Black, Helvetica;
     font-size: 60px;
@@ -83,14 +96,14 @@ h3 {
 }
 
 p {
-    font-family: Apercu Light, Apercu, Helvetica;
+    font-family: Apercu, Apercu, Helvetica;
     font-size: 15px;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
 
 ul {
-    font-family: Apercu Light, Helvetica;
+    font-family: Apercu, Helvetica;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
@@ -111,8 +124,8 @@ a {
 }
 
 b {
-    font-family: Apercu Light;
-    font-weight: 700;
+    font-family: Apercu;
+    font-weight: bold;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
