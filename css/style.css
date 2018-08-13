@@ -10,6 +10,7 @@
     -webkit-font-smoothing; antialiased;
 }
 
+
 @font-face {
     font-family: Apercu;
     src: url('Apercu-Bold.otf');
@@ -83,7 +84,7 @@ h1 {
 h2 {
     font-family: Apercu;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: bold;
     text-align: center;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
@@ -92,7 +93,7 @@ h2 {
 h3 {
     font-family: Apercu;
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: normal;
     -moz-osx-font-smoothing: grayscale;   /* Firefox */
     -webkit-font-smoothing; antialiased;
 }
@@ -373,6 +374,19 @@ a.a-underline-img-gallery {
     box-shadow: inset 0px -8px 0px 0px #b2cbde;
 }
 
+a.h3-image-gallery {
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing; antialiased;
+    verflow: hidden;
+    white-space: nowrap;
+    font-size: 1.4vw;
+    font-weight: 550;
+    margin: 0;
+    cursor: url('moose.png'), auto;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -0.8vw 0px 0px #b2cbde;
+    transition-duration: 1s
+}
 
 /*               INDEX PAGE               */
 h2.index {
@@ -513,22 +527,6 @@ h2.h2-photography:hover {
     transition-duration: 1s
 }
 
-/* EXETER, NEW HAMPSHIRE SECTION */
-a.h3-enh-photography {
-    -moz-osx-font-smoothing: grayscale;   /* Firefox */
-    -webkit-font-smoothing; antialiased;
-    verflow: hidden;
-    white-space: nowrap;
-    font-size: 1.4vw;
-    font-weight: 550;
-    margin: 0;
-    cursor: url('moose.png'), auto;
-    -webkit-appearance: none;
-    box-shadow: inset 0px -0.8vw 0px 0px #b2cbde;
-    transition-duration: 1s
-}
-
-
 
 /*               WORKS > PHOTOGRAPHY > EXETER, NEW HAMPSHIRE PAGE               */
 
@@ -557,6 +555,149 @@ h2.h2-exeter-new-hampshire:hover {
     top: 128px;
     margin: 0 auto;
     width: 325px;
+    transition-duration: 1s
+}
+
+/*               ORKS > PHOTOGRAPHY > AUTUMN NOONS               */
+
+h2.h2-autumn-noons {
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 215px;
+    transition-duration: 1s
+}
+
+h2.h2-autumn-noons:hover {
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 215px;
+    transition-duration: 1s
+}
+
+
+/*               WORKS > PHOTOGRAPHY > CITY LANDSCAPES               */
+
+h2.h2-city-landscapes {
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 235px;
+    transition-duration: 1s
+}
+
+h2.h2-city-landscapes:hover {
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 235px;
+    transition-duration: 1s
+}
+
+/*               WORKS > PHOTOGRAPHY > CITY PORTRAITS               */
+
+h2.h2-city-portraits {
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 195px;
+    transition-duration: 1s
+}
+
+h2.h2-city-portraits:hover {
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 195px;
+    transition-duration: 1s
+}
+
+
+/*               WORKS > PHOTOGRAPHY > AIR               */
+
+h2.h2-air {
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 55px;
+    transition-duration: 1s
+}
+
+h2.h2-air:hover {
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 55px;
+    transition-duration: 1s
+}
+
+
+/*               WORKS > PHOTOGRAPHY > WINTER DAWNS               */
+
+h2.h2-winter-dawns {
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -18px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 200px;
+    transition-duration: 1s
+}
+
+h2.h2-winter-dawns:hover {
+    white-space: nowrap;
+    -webkit-appearance: none;
+    box-shadow: inset 0px -40px 0px 0px #b2cbde;
+    content: "";
+    left: 1px;
+    right: 1px;
+    top: 128px;
+    margin: 0 auto;
+    width: 200px;
     transition-duration: 1s
 }
 
