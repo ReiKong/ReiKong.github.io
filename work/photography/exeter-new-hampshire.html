@@ -6,6 +6,7 @@
         <title>Exeter, New Hampshire | Works | Rei</title>
         <body style="background-color:#FFFFFF">
         <link href="../../css/style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="../../img-gallery.js"></script>
     </head>
         
     <body>
@@ -91,6 +92,8 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- MODAL -->
             <div id="myModal" class="modal">
                 <span class="close cursor" onclick="closeModal()">&times;</span>
                 <div class="modal-content">
@@ -171,47 +174,8 @@
       <img class="demo cursor" src="photography-images/Exeter,%20New%20Hampshire%20No.%2010.JPG" style="width:100%" onclick="currentSlide(11)" alt="Northern Lights">
     </div>
 -->
-  </div>
-</div>
+                </div>
+            </div>
         </div>
-    <script>
-        function openModal() {
-            document.getElementById('myModal').style.display = "block";
-        }
-
-        function closeModal() {
-  document.getElementById('myModal').style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-        </script>
     </body>
-
 </html>

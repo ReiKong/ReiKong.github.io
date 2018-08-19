@@ -6,6 +6,7 @@
         <title>Exeter, New Hampshire | Works | Rei</title>
         <body style="background-color:#FFFFFF">
         <link href="../../css/style.css" rel="stylesheet" type="text/css">
+        <script src="../../img-gallery.js"></script>
     </head>
         
     <body>
@@ -35,20 +36,43 @@
                 <h2 class="h2-air">Air</h2>
             </div>
 
-            <div id="enh-image-gallery">
+            <div id="image-gallery">
                 <!-- FIRST ROW -->
                 <div class="row">
                     <div class="column">
-                        <img src="photography-images/Air%20Series%20No.%201.JPG" style="width:100%">
+                        <img src="photography-images/Air%20Series%20No.%201.JPG" style="width:100%" onclick="openModal();currentSlide(1)">
                     </div>
                     <div class="column">
-                        <img src="photography-images/Air%20Series%20No.%202.JPG" style="width:100%">
+                        <img src="photography-images/Air%20Series%20No.%202.JPG" style="width:100%" onclick="openModal();currentSlide(2)">
                     </div>
                     <div class="column">
-                        <img src="photography-images/Air%20Series%20No.%203.JPG" style="width:100%">
+                        <img src="photography-images/Air%20Series%20No.%203.JPG" style="width:100%" onclick="openModal();currentSlide(3)">
                     </div>
                 </div>
             </div>
+            
+            <!-- MODAL -->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides">
+                        <img src="photography-images/Air%20Series%20No.%201.JPG" style="width:100%;max-width:90vh">
+                    </div>
+                    <div class="mySlides">
+                        <img src="photography-images/Air%20Series%20No.%202.JPG" style="width:100%;max-width:90vh">
+                    </div>
+                    <div class="mySlides">
+                        <img src="photography-images/Air%20Series%20No.%203.JPG" style="width:100%;max-width:90vh">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10216;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10217;</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </body>
 

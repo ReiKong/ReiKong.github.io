@@ -7,6 +7,7 @@
         <body style="background-color:#FFFFFF">
         <link rel="shortcut icon" href="../../favicons/bb-wt-c-favicon.ico" type="image/x-icon"/>
         <link href="../../css/style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="../../img-gallery.js"></script>
     </head>
         
     <body>
@@ -36,11 +37,28 @@
                 <h2 class="h2-acos">A Circle of Sharing</h2>
             </div>
 
+            <!-- IMAGE GALLERY -->
             <div id="acos-image-gallery">
                 <!-- FIRST ROW -->
                 <div class="row">
                     <div class="single-column">
-                        <img src="graphics-and-design-images/'A%20Circle%20of%20Sharing'%202.jpg" style="width:100%">
+                        <img src="graphics-and-design-images/'A%20Circle%20of%20Sharing'%202.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- MODAL -->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides">
+                        <img src="graphics-and-design-images/'A%20Circle%20of%20Sharing'%20Cover.png" style="width:100%;max-width:150vh">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10216;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10217;</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
                     </div>
                 </div>
             </div>
